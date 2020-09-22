@@ -5,7 +5,7 @@ notifications:
 python:
   - 2.7
 install:
-  - python setup.py install
+  - pip install -r pip-sample/requirements.txt
 script:
   - echo "no scripts"
 after_success:
