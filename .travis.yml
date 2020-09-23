@@ -5,7 +5,7 @@ notifications:
 python:
   - 3.7.4
 install:
-  - pipenv install pipenv-sample/Pipfile
+  - pipenv install
 script:
   - echo "no scripts"
 after_success:
